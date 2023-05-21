@@ -33,9 +33,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
 
-
-
-
   mail:
     host: smtp.gmail.com
     port: 465
@@ -55,15 +52,15 @@ spring:
           connectiontimeout: 5000
 #
 #
-#  sql:
-#    init:
-#      platform: postgres
-#      mode: always
+  sql:
+    init:
+      platform: postgres
+      mode: always
 #
 #
 #
 #
 #
-#  logging:
-#    level:
-#      org.springframework.security: DEBUG
+  logging:
+    level:
+      org.springframework.security: DEBUG
